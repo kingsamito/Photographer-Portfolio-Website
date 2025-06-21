@@ -72,7 +72,7 @@ export const About = () => {
             A Few Facts About Myself
           </h1>
         </div>
-        <div className="flex flex-col py-16">
+        <div className="flex flex-col justify-center items-center py-16">
           <div className="grid grid-cols-3">
             <img
               src={grid1}
@@ -80,7 +80,7 @@ export const About = () => {
               className='"w-full h-full object-cover block'
             />
 
-            <div className="flex flex-col items-center j space-y-6">
+            <div className="flex flex-col items-center  space-y-6">
               <div className="border-b-2 border-[#B58B61] w-[170px] pb-2">
                 <h1 className="text-[#B58B61] font-cormorant font-[600] text-center text-[120px] leading-[100%] tracking-[5%]">
                   1
