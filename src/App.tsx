@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
-import { Contact, Home, NotFound, About, Services } from './pages';
+import { Contact, Home, NotFound, About, Services, Portfolio } from './pages';
 import { HeaderLayout, Layout } from './components';
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="about" element={<About />} />
             <Route path="services" element={<Services />} />
+            <Route path="portfolio" element={<Portfolio />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Route>

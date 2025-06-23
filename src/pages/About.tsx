@@ -149,7 +149,7 @@ export const About = () => {
             </h1>
           </div>
 
-          <div className="bg-[#F5F5F5] pl-[100px] flex items-center w-full h-[239px]">
+          <div className="bg-[#F5F5F5] mt-3 pl-[100px] flex items-center w-full h-[239px]">
             <p className="font-[300] max-w-[33rem] text-[28px] font-cormorantGaramond leading-[100%]">
               Your wedding day is a once-in-a-lifetime event, and choosing the
               right photographer is essential to preserving its magic for years
